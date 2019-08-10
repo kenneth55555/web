@@ -1,3 +1,15 @@
-h1 {
-    font-size: 16px;
+html { font-size:2em; } /* 1em = 100% of the browser's base font size, so in most cases this will render as 16 pixels */
+h1 { font-size:2rem; } /* twice the size of the body, thus 32 pixels */
+/*h1 {*/
+/*    font-size: 300%;*/
+/*}*/
+p {
+    font-size: 64px;
+}
+em {
+    font-size: 100%;
+}
+img {
+    display: block;
+    width: 100%;
 }
